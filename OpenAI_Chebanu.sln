@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAI_Chebanu", "OpenAI_Chebanu\OpenAI_Chebanu.csproj", "{93329FC1-C173-473D-B467-A5613C5875EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAI_Client", "OpenAI_Chebanu\OpenAI_Client.csproj", "{93329FC1-C173-473D-B467-A5613C5875EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
