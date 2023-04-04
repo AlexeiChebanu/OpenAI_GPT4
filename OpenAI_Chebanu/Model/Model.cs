@@ -111,11 +111,15 @@ namespace OpenAI.Models;
         /// Capable of very simple tasks, usually the fastest model in the GPT-3 series, and lowest cost
         /// </summary>
         public static Model AdaText => new Model("text-ada-001") { OwnedBy = "openai" };
+    /// <summary>
+    /// OpenAI offers one second-generation embedding model for use with the embeddings API endpoint.
+    /// </summary>
+    public static Model AdaTextEmbedding => new Model("text-embedding-ada-002") { OwnedBy = "openai" };
 
-        /// <summary>
-        /// Most capable GPT-3 model. Can do any task the other models can do, often with higher quality.
-        /// </summary>
-        public static Model Davinci => new Model("davinci") { OwnedBy = "openai" };
+    /// <summary>
+    /// Most capable GPT-3 model. Can do any task the other models can do, often with higher quality.
+    /// </summary>
+    public static Model Davinci => new Model("davinci") { OwnedBy = "openai" };
 
         /// <summary>
         /// Very capable, but faster and lower cost than Davinci.

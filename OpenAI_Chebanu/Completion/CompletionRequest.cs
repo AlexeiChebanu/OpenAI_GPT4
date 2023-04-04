@@ -165,7 +165,7 @@ namespace OpenAI.Completion
         /// </summary>
         public CompletionRequest()
         {
-            this.Model = OpenAI_API.Models.Model.DefaultModel;
+            this.Model = Models.Model.DefaultModel;
         }
 
         /// <summary>
