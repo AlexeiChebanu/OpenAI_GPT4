@@ -8,6 +8,6 @@ using OpenAI_Client.Image;
 
 OpenAIClient api = new OpenAIClient("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");
 
-var result = await api.ImageGenerations.CreateImageAsync(new ImageRequest("A drawing of a computer writing a test", 1, ImageSize.size512));
+var result = await api.ImageGenerations.CreateImageAsync(new ImageRequest("Draw milky way", 1, ImageSize.size512));
 
 Console.WriteLine(result.Data[0].Url);
